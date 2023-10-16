@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dz-1-django"
+version = "0.1.0"
+description = ""
+authors = ["Saveliy <ya.savchik2000@mail.ru>"]
+readme = "README.md"
+packages = [{include = "dz_1_django"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
